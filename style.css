@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", Times, serif;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-gray);
+  padding: 10px;
+}
+.logo-container a {
+  text-decoration: none;
+}
+.logo-container a span {
+  color: #007bff;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.header-content h1 span {
+  color: #007bff;
+}
+
+.header-content p {
+  color: #999;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.header-buttons a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: var(--white);
+}
+
+.btn-secondary {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Hero Section Styles */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("./images/depot_hero_1.jpg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  padding: 20px;
+  color: #fff;
+}
+
+.hero-content {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  /* padding: 100px; */
+}
+
+.hero-content h2 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.hero-content h3 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  line-height: 2;
+}
+.hero-button {
+  margin-top: 40px;
+}
+.hero-button .tracking-field {
+  padding: 10px;
+  border-radius: 15px;
+  /* width: 500px; */
+}
+.hero-button .submit-btn {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Transport-item style */
+
+.transport-item {
+  margin: 80px auto;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.transport-item a img {
+  width: 350px;
+  height: 218px;
+}
+.transport-item h2 {
+  color: #007bff;
+  font-weight: 300;
+  font-size: 25px;
+  margin: 20px 0;
+}
+.transport-item p {
+  color: #999;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+/* Service-section Styling */
+
+.service {
+  padding: 80px;
+}
+.service-section {
+  background-color: #f7f5f5;
+  text-align: center;
+}
+.service-title h2 {
+  font-size: 50px;
+  font-weight: 300;
+  color: #007bff;
+}
+.service-title p {
+  color: #999;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.service-item {
+  line-height: 2.5;
+  padding: 50px;
+}
+.service-item i {
+  font-size: 50px;
+  color: #007bff;
+}
+.service-item h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.service-item p {
+  color: #999;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.service-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* STAFF SECTION STYLES */
+.staff-title {
+  text-align: center;
+  padding: 80px;
+}
+.staff-title h2 {
+  font-size: 48px;
+  color: #007bff;
+  font-weight: 300;
+}
+.staff-title p {
+  color: #999;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.about-staff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.staff-member {
+  width: 350px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #c1bebe;
+  border-radius: 10px;
+  margin: 30px;
+}
+.staff-member a img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.staff-member h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.staff-member span {
+  font-size: 12px;
+  color: #b8b8b8;
+}
+.staff-member p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 15px 0px;
+  color: #939393;
+  font-weight: 100;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-links a i {
+  background-color: #007bff;
+  font-size: 15px;
+  padding: 8px;
+  margin: 3px;
+  color: white;
+  border-radius: 4px;
+}
