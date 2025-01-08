@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Georgia", Times, serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /* Header Styles */
@@ -71,7 +71,6 @@ header {
   justify-content: center;
   flex-direction: column;
   margin: auto;
-  /* padding: 100px; */
 }
 
 .hero-content h2 {
@@ -107,7 +106,7 @@ header {
   color: #fff;
 }
 
-/* Transport-item style */
+/* TRANSPORT ITEM STYLING */
 
 .transport-item {
   margin: 80px auto;
@@ -199,6 +198,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .staff-member {
@@ -248,4 +248,114 @@ header {
   margin: 3px;
   color: white;
   border-radius: 4px;
+}
+
+/* PRICING-PLAN-STYLING */
+.pricing-section {
+  background-color: #f7f5f5;
+  padding: 112px 0px;
+}
+.pricing-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pricing-title h2 {
+  color: #007bff;
+  font-size: 48px;
+  font-weight: 200;
+}
+.pricing-title p {
+  color: #999;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.pricing-plan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.plan {
+  background-color: #fff;
+  padding: 30px;
+  margin: 30px 20px;
+}
+.plan-header {
+  text-align: center;
+  align-items: center;
+}
+.plan-header h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+.plan-header p {
+  font-size: 48px;
+  color: #007bff;
+  font-weight: 300;
+  padding: 20px;
+}
+.plan-header span {
+  font-size: 16px;
+  color: #ccc;
+}
+.plan ul {
+  margin-bottom: 30px;
+}
+.plan ul li {
+  list-style: none;
+}
+.plan ul li i {
+  color: #7eb260;
+  margin-right: 15px;
+}
+.plan ul li span {
+  color: #999;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+  line-height: 3;
+}
+.buy-btn {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0px;
+}
+.btn-blue {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0px;
+}
+.plan .btn-blue a {
+  background-color: #007bff;
+}
+.plan a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6c757d;
+  padding: 13px 20px;
+  border-radius: 5px;
+}
+/* FAQ SECTION STYLING */
+.QNA-section {
+  padding: 112px 0px;
+}
+.QNA-header h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 48px;
+  font-weight: 200;
+}
+.QNA-list {
+  display: flex;
+  justify-content: center;
+}
+.QNA h3 {
+  font-size: 20px;
+  font-weight: 200;
+}
+.QNA p {
+  font-size: 16px;
+  color: #939393;
 }
