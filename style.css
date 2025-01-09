@@ -339,7 +339,7 @@ header {
 }
 /* FAQ SECTION STYLING */
 .QNA-section {
-  padding: 112px 0px;
+  padding: 100px 0px;
 }
 .QNA-header h2 {
   text-align: center;
@@ -349,13 +349,247 @@ header {
 }
 .QNA-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  margin-top: 30px;
+}
+.QNA-items {
+  max-width: 570px;
+  padding: 25px;
 }
 .QNA h3 {
   font-size: 20px;
   font-weight: 200;
+  margin-bottom: 20px;
 }
 .QNA p {
   font-size: 16px;
+  font-weight: 100;
+  line-height: 1.9;
   color: #939393;
+  margin-bottom: 16px;
+}
+
+/* CLIENT SECTION */
+.client-section {
+  background-color: #f7f5f5;
+}
+.client-container {
+  padding: 100px 0px;
+}
+.client-title h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 48px;
+  font-weight: 200;
+  margin: 0px 0px 8px;
+}
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+.client-box {
+  max-width: 370px;
+  padding: 20px;
+}
+.client-msg {
+  background-color: #fff;
+  padding: 30px;
+}
+.client-msg p {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.9;
+  color: #000;
+  font-family: "Georgia", Times, serif;
+  font-style: italic;
+}
+
+.client-img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+.client-img figcaption {
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+}
+
+/* ARTICLE-SECTION */
+.article-container {
+  padding: 48px 0px;
+}
+.article-title h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 48px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.article-box {
+  max-width: 570px;
+  padding: 25px;
+}
+
+.article-img img {
+  border-radius: 6px;
+  width: 100%;
+}
+.article-detail .date {
+  font-size: 16px;
+  color: #6c757d;
+  font-weight: 100;
+  margin: 16px 0px;
+}
+.article-detail h3 {
+  font-size: 24px;
+  font-weight: 200;
+  color: #000;
+  margin: 0px 0px 16px;
+}
+.article-detail p {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.6;
+  color: #939393;
+  margin: 0px 0px 16px;
+}
+.article-detail a {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 100;
+  margin: 0px 0px 16px;
+}
+/* CONTACT-FORM STYLING */
+.contact-section {
+  background-color: #f7f5f5;
+}
+.contact-container {
+  padding: 100px 0px;
+}
+.contact-title h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 48px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.contact-form {
+  max-width: 760px;
+  margin: 0px auto;
+}
+form .name {
+  display: flex;
+  gap: 25px;
+}
+form .form-control {
+  width: 100%;
+  height: 55px;
+  padding: 6px 12px;
+  margin: 10px 0px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+textarea {
+  width: 100%;
+  padding: 6px 12px;
+  margin: 10px 0px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+form .send-btn {
+  width: 350px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 48px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* FOOTER-SECTION STYLING */
+.footer-section {
+  background-color: #333;
+}
+.footer-container {
+  padding: 100px 0px;
+}
+.footer-row {
+  max-width: 1140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+.about-wrapper {
+  display: flex;
+  max-width: 570px;
+}
+.copyright p {
+  text-align: center;
+  padding: 48px 0px 0px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 1140px;
+  margin: 50px auto;
+}
+.footer-row h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0px 0px 24px;
+}
+.feature ul li {
+  list-style: none;
+  color: #ffffff80;
+  font-weight: 100;
+  line-height: 2;
+}
+.subscribe-form {
+  display: flex;
+  margin-top: 30px;
+}
+.subscribe-form .email-field {
+  height: 55px;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+.subscribe button {
+  height: 55px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+.subscribe .follow {
+  margin: 30px 0px 15px;
+}
+.footer-container p {
+  line-height: 1.6;
+  color: #fff;
+  font-weight: 100;
+}
+.subscribe a .fa-twitter,
+.fa-instagram {
+  padding: 0px 16px;
+  color: #ffffff80;
+}
+.subscribe a .fa-facebook-f,
+.fa-linkedin-in {
+  padding: 0px 16px 0px 0px;
+  color: #ffffff80;
+}
+.copyright span {
+  color: #ffffff80;
 }

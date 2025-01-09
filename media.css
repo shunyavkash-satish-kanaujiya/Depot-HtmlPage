@@ -11,6 +11,15 @@
     width: 100%;
   }
 }
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media (max-width: 1024px) {
+  .footer-container {
+    padding: 80px 25px;
+  }
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 @media (max-width: 768px) {
   /* HEADER-SECTION */
   header {
@@ -72,8 +81,24 @@
   .service-item-container {
     flex-direction: column;
   }
+  /* FAQ SECTION */
+  .QNA-list {
+    flex-direction: column;
+  }
+  .QNA-items {
+    max-width: 100%;
+  }
+  /* CONTACT-SECTION */
+  .contact-form {
+    padding: 20px;
+  }
+  form .name {
+    flex-direction: column;
+    gap: 0;
+  }
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 @media (max-width: 480px) {
   /* HEADER SECTION MEDIA */
 
@@ -151,8 +176,39 @@
   .staff-title p {
     font-size: 12px;
   }
+
+  /* FAQ-SECTION */
+  .QNA-header h2 {
+    font-size: 30px;
+  }
+  .QNA h3 {
+    font-size: 16px;
+  }
+  .QNA p {
+    font-size: 14px;
+  }
+  .QNA-items {
+    padding: 5px 25px;
+  }
+  /* FOOTER-SECTION */
+  .about-wrapper {
+    flex-direction: column;
+  }
+  .feature {
+    margin-top: 20px;
+  }
+  .subscribe {
+    margin-top: 20px;
+  }
+  .subscribe-form .email-field {
+    width: 100%;
+  }
+  .subscribe button {
+    width: 100%;
+  }
 }
 
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 @media (max-width: 375px) {
   /* MAIN SECTION */
   .hero-content {
@@ -201,5 +257,52 @@
   .plan ul li span {
     font-size: 12px;
     line-height: 2.5;
+  }
+  /* CLIENT-SECTION */
+  .client-container {
+    padding: 50px 0px;
+  }
+  .client-title h2 {
+    font-size: 40px;
+  }
+  .client-msg p {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+  /* ARTICEL SECTION */
+  .article-title h2 {
+    font-size: 40px;
+    font-weight: 200;
+  }
+  .article-detail h3 {
+    font-size: 18px;
+    font-weight: 200;
+  }
+  .article-detail p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.6;
+  }
+  /* CONTACT-SECTION */
+  .contact-container {
+    padding: 50px 0px;
+  }
+  form .send-btn {
+    width: 100%;
+  }
+  .contact-title h2 {
+    font-size: 40px;
+  }
+  .subscribe-form {
+    flex-direction: column;
+  }
+  .subscribe-form .email-field {
+    border-radius: 0%;
+  }
+  .subscribe button {
+    height: 25px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
   }
 }
