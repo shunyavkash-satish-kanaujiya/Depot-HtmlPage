@@ -17,6 +17,9 @@
   .footer-container {
     padding: 80px 25px;
   }
+  .feature {
+    margin-left: 10px;
+  }
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -49,7 +52,6 @@
   .hero-section {
     flex-direction: column;
     height: auto;
-    /* padding: 50px; */
   }
 
   .hero-content {
@@ -95,6 +97,10 @@
   form .name {
     flex-direction: column;
     gap: 0;
+  }
+  /* FOOTER SECTION */
+  .about {
+    margin-right: 10px;
   }
 }
 
