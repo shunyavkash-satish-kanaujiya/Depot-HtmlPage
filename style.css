@@ -124,11 +124,15 @@ header {
 
 .transport-item {
   margin: 80px auto;
-  width: 1140px;
+  gap: 30px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   text-align: center;
+}
+.transort-box {
+  margin-bottom: 30px;
 }
 .transport-item a img {
   width: 350px;
